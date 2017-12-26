@@ -1,14 +1,16 @@
-// Third person Space Flight mini-game
+// THIRD PERSON SPACE FLIGHT MINI-GAME
 
-// The code for this game is written in Processing language (Java Mode).
+// The code for this game is written in Processing language (Java Mode);
 
-// Copy the code into a new Processing sketch and save it in a folder with the same name.
+// Copy the code into a new Processing sketch and save it in a folder with the same name;
 
-// Create a new folder called "Data" inside the main sketch folder.
+// Create a new folder called "Data" inside the main sketch folder;
 
-// Download and store all the attached files into "Data" folder for the game to work correctly.
+// Download and store all the attached files into "Data" folder for the game to work correctly;
 
-// Minim lirary has to be installed in Processing to play audio files.
+// DKThievery.vlw font has to be installed;
+
+// Minim lirary has to be installed in Processing to play audio files;
 
 // CREDITS AND USED RESOURCES:
 
