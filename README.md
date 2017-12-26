@@ -8,9 +8,21 @@
 
 // Download and store all the attached files into "Data" folder for the game to work correctly;
 
-// DKThievery.vlw font has to be installed;
+// DKThievery.vlw font must be installed;
 
-// Minim lirary has to be installed in Processing to play audio files;
+// Minim lirary must be installed in Processing to play audio files;
+
+
+//GAME LOGIC
+
+// Control the spaceship with the right and left keys.
+
+// Avoid collisions with asteroids. The faster you travel the faster they appear.
+
+// You've got three lives. The goal is to reach maximum possible speed.
+
+// Your record will be displayed on screen after no more lives are left.
+
 
 // CREDITS AND USED RESOURCES:
 
