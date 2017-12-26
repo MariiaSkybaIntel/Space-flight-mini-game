@@ -4,7 +4,7 @@
 
 //The attached files must be uploaded and stored in "Data" folder for the game to work correctly.
 
-//Minim lirary has to be installed in Processing for all audio files to play properly.
+//Minim lirary has to be installed in Processing to play audio files.
 
 // CREDITS AND USED RESOURCES:
 
