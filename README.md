@@ -13,7 +13,7 @@ Download and store all the attached files into "Data" folder for the game to wor
 DKThievery.vlw font must be installed;
 
 Minim lirary must be installed in Processing to play audio files;
-<br>
+
 <b>GAME LOGIC</b>
 
 Control the spaceship with the right and left keys.
@@ -28,6 +28,7 @@ Your record will be displayed on screen after no more lives are left.
 
 
 <b>CREDITS AND USED RESOURCES:</b>
+
 Credit to Frederik Rogalski (openprocessing) https://www.openprocessing.org/sketch/445916
 
 Credit to Alex Samuel (openprocessing) http://www.openprocessing.org/sketch/66950
