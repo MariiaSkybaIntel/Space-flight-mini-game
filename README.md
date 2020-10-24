@@ -12,15 +12,16 @@ Download and store all the attached files into "Data" folder for the game to wor
 
 DKThievery.vlw font must be installed;
 
-Minim lirary must be installed in Processing to play audio files;
+Minim library must be installed in Processing to play audio files;
 
 <b>GAME LOGIC</b>
 
 Control the spaceship with the right and left keys.
 
+You've got three lives. The goal is to reach maximum possible speed.
+
 Avoid collisions with asteroids. The faster you travel the faster they appear.
 
-You've got three lives. The goal is to reach maximum possible speed.
 
 Your record will be displayed on screen after no more lives are left.
 ![Capture1](https://github.com/mindskai27/Space-flight-mini-game/blob/master/Capture1.JPG)
@@ -42,3 +43,5 @@ Mouse click sound effect: http: http://noisefx.ru/skachat-zvuki-klika-myshi.html
 Spaceship sound effect: https://www.soundjay.com/propeller-plane-sound-effect.html
 
 Main music theme: Tales - Endless Spaces
+
+All images used in this game created by Mariia Skyba
