@@ -33,14 +33,14 @@ Your record will be displayed on screen after no more lives are left.
 
 Four different trajectories have been created for the asteroids to move along using vectors. 
 The following variable generates a random number from 0 to 3 and then passes the value to 'side':
-```float fside=random(0,4);
 ```
-```side=int(fside);
+float fside=random(0,4);
+side=int(fside);
 ```
 This tells the asteroid which trajectory to use. Each trajectory uses three vectors, so the corners of an image can be guided along these lines. Asteroid sprite increases in size as it moves along a trajectory. This was achieved by guiding the four points of the asteroid image along the trajectory lines, which spread out near the edges of the screen. This helped create the illusion of depth.
 
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/vectors.png" width="300" height="300"/>
------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 Spaceship movement is calculated by using trigonometric functions:
 
