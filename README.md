@@ -2,17 +2,17 @@
 
 The code for this game is written in Processing language (Java Mode);
 
-<b>Important</b>
+<b>Important:</b>
 
 Copy the code into a new Processing sketch and save it in a folder with the same name;
 
 Create a new folder called "Data" inside the main sketch folder;
 
-Download and store all the attached files into "Data" folder for the game to work correctly;
+Download and store all the attached files into this folder for the game to work correctly;
 
-DKThievery.vlw font must be installed;
+DKThievery.vlw font needs to be installed;
 
-Minim library must be installed in Processing to play audio files;
+Minim library needs to be installed in Processing to play audio files;
 
 <b>Game logic</b>
 
@@ -28,22 +28,26 @@ Your record will be displayed on screen after no more lives are left.
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture1.JPG" width="300" height="300"/>
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture2.JPG" />
 
+--------------------------------------------------------------------------------------
 <b>Additional info</b>
 
-Four different trajectories have been created for the asteroids to move along using vectors. A variable “float fside=random(0,4);” generates a random number from 0 to 3
-
-and then passes the value to “side”: “side=int(fside);”. This tells the asteroid which trajectory to use. Each trajectory uses three vectors, so the corners of an image
-
-can be guided along these lines. Asteroid sprite increases in size as it moves along a trajectory. This was achieved by guiding the four points of the asteroid image along the
-
-trajectory lines, which spread out near the edges of the screen. This helped create the illusion of depth.
+Four different trajectories have been created for the asteroids to move along using vectors. 
+The following variable generates a random number from 0 to 3 and then passes the value to 'side':
+```float fside=random(0,4);
+```
+```side=int(fside);
+```
+This tells the asteroid which trajectory to use. Each trajectory uses three vectors, so the corners of an image can be guided along these lines. Asteroid sprite increases in size as it moves along a trajectory. This was achieved by guiding the four points of the asteroid image along the trajectory lines, which spread out near the edges of the screen. This helped create the illusion of depth.
 
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/vectors.png" width="300" height="300"/>
 -----------------------------------------------------------------------------------------
 
 Spaceship movement is calculated by using trigonometric functions:
-spaceship_x = 220 * sin(angle) + OriginX;
-spaceship_y = 240 * cos(angle) + OriginY;
+
+```spaceship_x = 220 * sin(angle) + OriginX;
+   spaceship_y = 240 * cos(angle) + OriginY;
+```
+
 It moves in a semi-circle to help create perspective. Left and right keys control
 spaceship’s movement.
 
