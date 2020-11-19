@@ -24,8 +24,9 @@ Avoid collisions with asteroids. The faster you travel the faster they appear.
 
 
 Your record will be displayed on screen after no more lives are left.
-<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture1.JPG" width="599" height="600"/>
-![Capture2](https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture2.JPG)
+
+<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture1.JPG" width="300" height="300"/>
+<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture2.JPG" />
 
 <b>Additional info</b>
 
