@@ -14,7 +14,7 @@ DKThievery.vlw font must be installed;
 
 Minim library must be installed in Processing to play audio files;
 
-<b>GAME LOGIC</b>
+<b>Game logic</b>
 
 Control the spaceship with the right and left keys.
 
@@ -30,17 +30,13 @@ Your record will be displayed on screen after no more lives are left.
 
 <b>Additional info</b>
 
-Four different trajectories have been created for the asteroids to move along using vectors.
+Four different trajectories have been created for the asteroids to move along using vectors. A variable “float fside=random(0,4);” generates a random number from 0 to 3
 
-A variable “float fside=random(0,4);” generates a random number from 0 to 3
+and then passes the value to “side”: “side=int(fside);”. This tells the asteroid which trajectory to use. Each trajectory uses three vectors, so the corners of an image
 
-and then passes the value to “side”: “side=int(fside);”. This tells the asteroid
+can be guided along these lines. Asteroid sprite increases in size as it moves along a trajectory. This was achieved by guiding the four points of the asteroid image along the
 
-which trajectory to use. Each trajectory uses three vectors, so the corners of an image
-
-can be guided along these lines. Asteroid sprite increases in size as it moves along a trajectory.
-This was achieved by guiding the four points of the asteroid image along the trajectory lines,
-which spread out near the edges of the screen. This helped create the illusion of depth.
+trajectory lines, which spread out near the edges of the screen. This helped create the illusion of depth.
 
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/vectors.png" width="300" height="300"/>
 -----------------------------------------------------------------------------------------
@@ -53,7 +49,7 @@ spaceship’s movement.
 
 ![movement](https://github.com/cmulation/Space-flight-mini-game/blob/master/movement.png)
 
-<b>CREDITS AND USED RESOURCES:</b>
+<b>Credits and resources:</b>
 
 Credit to Frederik Rogalski (openprocessing) https://www.openprocessing.org/sketch/445916
 
