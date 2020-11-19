@@ -44,8 +44,9 @@ This tells the asteroid which trajectory to use. Each trajectory uses three vect
 
 Spaceship movement is calculated by using trigonometric functions:
 
-```spaceship_x = 220 * sin(angle) + OriginX;
-   spaceship_y = 240 * cos(angle) + OriginY;
+```
+spaceship_x = 220 * sin(angle) + OriginX;
+spaceship_y = 240 * cos(angle) + OriginY;
 ```
 
 It moves in a semi-circle to help create perspective. Left and right keys control
