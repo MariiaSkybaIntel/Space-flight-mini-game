@@ -42,7 +42,7 @@ can be guided along these lines. Asteroid sprite increases in size as it moves a
 This was achieved by guiding the four points of the asteroid image along the trajectory lines,
 which spread out near the edges of the screen. This helped create the illusion of depth.
 
-![vectors](https://github.com/cmulation/Space-flight-mini-game/blob/master/vectors.png)
+<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/vectors.png" width="300" height="300"/>
 -----------------------------------------------------------------------------------------
 
 Spaceship movement is calculated by using trigonometric functions:
