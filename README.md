@@ -1,18 +1,19 @@
-<h1><b>THIRD PERSON SPACE FLIGHT MINI-GAME</b></h1>
+<h1>THIRD PERSON SPACE FLIGHT MINI-GAME</h1>
+<hr>
 
-The code for this game is written in Processing language (Java Mode);
+The code for this game is written in Processing language (Java Mode)
 
 <h3><b>Important:</b></h3>
 
-Copy the code into a new Processing sketch and save it in a folder with the same name;
+Copy the code into a new Processing sketch and save it in a folder with the same name.
 
-Create a new folder called "Data" inside the main sketch folder;
+Create a new folder called "Data" inside the main sketch folder.
 
-Download and store all the attached files into this folder for the game to work correctly;
+Download and store all the attached files into this folder for the game to work correctly.
 
-DKThievery.vlw font needs to be installed;
+DKThievery.vlw font needs to be installed.
 
-Minim library needs to be installed in Processing to play audio files;
+Minim library needs to be installed in Processing to play audio files.
 <hr>
 
 <h3><b>Game logic</b></h3>
@@ -29,7 +30,7 @@ Your record will be displayed on screen after no more lives are left.
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture1.JPG" width="300" height="300"/>
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture2.JPG" />
 
---------------------------------------------------------------------------------------
+<hr>
 <b>Additional info</b>
 
 Four different trajectories have been created for the asteroids to move along using vectors. 
@@ -41,7 +42,7 @@ side=int(fside);
 This tells the asteroid which trajectory to use. Each trajectory uses three vectors, so the corners of an image can be guided along these lines. Asteroid sprite increases in size as it moves along a trajectory. This was achieved by guiding the four points of the asteroid image along the trajectory lines, which spread out near the edges of the screen. This helped create the illusion of depth.
 
 <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/vectors.png" width="300" height="300"/>
---------------------------------------------------------------------------------------
+<hr>
 
 Spaceship movement is calculated by using trigonometric functions:
 
