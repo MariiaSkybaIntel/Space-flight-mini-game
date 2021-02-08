@@ -1,4 +1,4 @@
-<h1>THIRD PERSON SPACE FLIGHT MINI-GAME</h1>
+# THIRD PERSON SPACE FLIGHT MINI-GAME
 <hr>
 
 The code for this game is written in Processing language (Java Mode)
