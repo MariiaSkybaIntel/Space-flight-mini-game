@@ -5,15 +5,15 @@ The code for this game is written in Processing language (Java Mode).
 
 <h3><b>Important:</b></h3>
 
-Copy the code into a new Processing sketch and save it in a folder with the same name.
+- [ ] Copy the code into a new Processing sketch and save it in a folder with the same name.
 
-Create a new folder called "Data" inside the main sketch folder.
+- [ ] Create a new folder called "Data" inside the main sketch folder.
 
-Download and store all the attached files into this folder for the game to work correctly.
+- [ ] Download and store all the attached files into this folder for the game to work correctly.
 
-DKThievery.vlw font needs to be installed.
+- [ ] DKThievery.vlw font needs to be installed.
 
-Minim library needs to be installed in Processing to play audio files.
+- [ ] Minim library needs to be installed in Processing to play audio files.
 <hr>
 
 <h3><b>Game logic</b></h3>
