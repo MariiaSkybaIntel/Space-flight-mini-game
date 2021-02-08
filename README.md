@@ -1,8 +1,8 @@
-<b>THIRD PERSON SPACE FLIGHT MINI-GAME</b>
+<h1><b>THIRD PERSON SPACE FLIGHT MINI-GAME</b></h1>
 
 The code for this game is written in Processing language (Java Mode);
 
-<b>Important:</b>
+<h3><b>Important:</b></h3>
 
 Copy the code into a new Processing sketch and save it in a folder with the same name;
 
@@ -13,8 +13,9 @@ Download and store all the attached files into this folder for the game to work 
 DKThievery.vlw font needs to be installed;
 
 Minim library needs to be installed in Processing to play audio files;
+<hr>
 
-<b>Game logic</b>
+<h3><b>Game logic</b></h3>
 
 Control the spaceship with the right and left keys.
 
