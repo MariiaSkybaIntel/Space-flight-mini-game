@@ -1,7 +1,7 @@
 # THIRD PERSON SPACE FLIGHT MINI-GAME
 <hr>
 
-The code for this game is written in Processing language (Java Mode)
+The code for this game is written in Processing language (Java Mode).
 
 <h3><b>Important:</b></h3>
 
