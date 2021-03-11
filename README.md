@@ -1,8 +1,8 @@
 # THIRD PERSON SPACE FLIGHT MINI-GAME
 
-The code for this game is written in Processing language (Java Mode).
+The code for this game is written in **Processing language** (Java Mode).
 
-##**Important:**
+## **Important prerequisites:**
 
 - [ ] Copy the code into a new Processing sketch and save it in a folder with the same name.
 
@@ -15,21 +15,20 @@ The code for this game is written in Processing language (Java Mode).
 - [ ] Minim library needs to be installed in Processing to play audio files.
 
 
-##**Game logic:**
+## **Game logic:**
 
-Control the spaceship with the right and left keys.
+Control the spaceship with the *right and left keys*.
 
-You've got three lives. The goal is to reach maximum possible speed.
+You've got *three* lives. The goal is to reach maximum possible speed.
 
 Avoid collisions with asteroids. The faster you travel the faster they appear.
 
 Your record will be displayed on screen after no more lives are left.
 
-<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture1.JPG" width="300" height="300"/>
-<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture2.JPG" />
+<img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture1.JPG" width="300" height="300"/> <img src= "https://github.com/cmulation/Space-flight-mini-game/blob/master/Capture2.JPG" />
 
 
-##**Additional info:**
+## **Additional info:**
 
 Four different trajectories have been created for the asteroids to move along using vectors. 
 The following variable generates a random number from 0 to 3 and then passes the value to 'side':
@@ -54,7 +53,7 @@ spaceship’s movement.
 
 ![movement](https://github.com/cmulation/Space-flight-mini-game/blob/master/movement.png)
 
-##**Credits and resources:**
+## **Credits and resources:**
 
 - Credit to Frederik Rogalski (openprocessing) https://www.openprocessing.org/sketch/445916
 - Credit to Alex Samuel (openprocessing) http://www.openprocessing.org/sketch/66950
